@@ -128,7 +128,7 @@ export default function ListViewPage(props) {
   const [error, setError] = useState("");
   const [popUp, setPopUp] = useState(false);
   useEffect(() => {
-    let isMounted = true
+    let isMounted = true;
     async function fetchData(deleteRecord) {
       try {
         let response;
