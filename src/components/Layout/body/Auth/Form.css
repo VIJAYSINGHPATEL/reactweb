@@ -1,0 +1,53 @@
+form {
+    width: 100%;
+  }
+  
+  .loginBox {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+    margin: auto;
+  }
+  .inputBox {
+    width: 100%;
+    max-width: 600px;
+}
+  .signUpSubmit {
+    margin: 25px 0 15px 0;
+  }
+  
+  .pwStrRow {
+    width: 63%;
+    text-align: left;
+    margin: auto;
+    padding: 0;
+    font-size: 12px;
+  }
+  
+  .pwStrWeak {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    color: gray;
+  }
+  
+  .pwStrStrong {
+    display: inline-block;
+    position: relative;
+    left: 77%;
+    padding: 0;
+    margin: 0;
+    color: gray;
+  }
+  
+  @media screen and (max-width: 550px) {
+    .loginBox {
+      width: 85%;
+    }
+  }
+  

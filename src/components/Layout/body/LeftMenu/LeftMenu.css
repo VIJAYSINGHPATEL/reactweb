@@ -1,0 +1,10 @@
+ 
+  .drawer {
+    background: #d8dcd6;
+    width: 0px;
+    transition: width 0.7s;
+  }
+  
+  .opened {
+    width: 320px;
+  }

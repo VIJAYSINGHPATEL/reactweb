@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  background:  #0a0c3a;
+  padding: 10px 15px;
+  align-items: center;
+  justify-content: space-between;
+  color: #f0eaec;
+}
+.logout {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.logout svg {
+  margin-right: 2px;
+}
+.logout-btn {
+  margin-left: 10px !important;
+}
+.icon {
+    padding: 10px;
+  }
+  
+  .icon:hover {
+    cursor: pointer;
+  }
+  
+  .header-title {
+    font-weight: bold;
+    font-size: x-large;
+  
+  }
+  
