@@ -1,2 +1,0 @@
-Hello git
-Add new text
